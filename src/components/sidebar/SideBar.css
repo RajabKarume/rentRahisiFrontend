@@ -41,9 +41,52 @@ h1{
     justify-content: start;
     align-items: start;
     text-align: start;
+    cursor: pointer;
+
 }
 li:hover{
     background-color: #8a0202;
-    cursor: pointer;
     
+}
+.hamburger-container{
+    display: none;
+}
+.hamburger{
+    cursor: pointer;
+
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #ffffff;
+
+}
+@media (max-width: 1000px){
+    .hamburger-container{
+        display: flex;
+        background-color: #9E0D0D;
+        height: 7vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    h1{
+        color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    .hamburger{
+        margin-right: 5%;
+        margin-left: auto;
+       
+
+    }
+    
+    .sidebarContainer{
+        display: none;
+    }
 }

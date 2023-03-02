@@ -1,4 +1,5 @@
 import React, { useState , useEffect } from "react";
+import Properties from "./Properties";
 
 function PropertiesFetch(){
 
@@ -13,7 +14,9 @@ function PropertiesFetch(){
 
     return(
         <div>
-
+            {apartment.map((apt)=>(
+                <Properties name={apt.name} location={apt.location} noOfHouses={apt.number_of_houses} key={apt.id} />
+            ))}
         </div>
     )
 }

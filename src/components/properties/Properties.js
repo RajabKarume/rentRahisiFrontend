@@ -1,22 +1,27 @@
 import React from "react";
-import "./Properties.css"
+// import "./Properties.css";
 
-function Properties(){
+function Properties({name, location, noOfHouses}){
 
     return(
         <div>
             <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Loction</th>
+                        <th>Number of Houses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{name}</td>
+                        <td>{location}</td>
+                        <td>{noOfHouses}</td>
+                    </tr>
+                </tbody>
             </table>
-            <tr>
-                <tb></tb>
-                <tb></tb>
-                <tb></tb>
-            </tr>
+            
         </div>
     )
 }

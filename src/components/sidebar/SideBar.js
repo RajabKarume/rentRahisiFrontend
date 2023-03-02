@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SideBar.css"
 
+
 function SideBar(){
+
+    const [mobileVeiw, setMobileVeiw] = useState(true)
+    function handleclick(){
+        setMobileVeiw(!mobileVeiw)
+        console.log('clicked')
+    }
 
     return(
         <div>
             <div className="hamburger-container">
                 <h1>DASHBOARD</h1>
-                <div className="hamburger">
+                <div className="hamburger" onClick={handleclick}>
                         <span className="bar"></span>
                         <span className="bar"></span>
                         <span className="bar"></span>
                 </div>
             </div>
-            <div className="sidebarContainer">
+            <div className={mobileVeiw?'sidebarContainer':'sidebarResponsive'}>
                 <div className="h1-div">
                     <h1>DASHBOARD</h1>
                 </div>

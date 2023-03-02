@@ -1,12 +1,14 @@
 import './App.css';
-import Card from './components/Cards/Card.js';
+import PropertiesFetch from './components/properties/PropertiesFetch';
+// import Card from './components/Cards/Card.js';
 // import SideBar from './components/sidebar/SideBar';
 
 function App() {
   return (
     <div className="App">
       {/* <SideBar/> */}
-      <Card />
+      {/* <Card /> */}
+      <PropertiesFetch />
     </div>
   );
 }

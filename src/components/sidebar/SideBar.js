@@ -11,7 +11,7 @@ function SideBar(){
             <div className="top-container">
                 <ul className="top-list">
                     <li>Overview</li>
-                    <li>Propertirs</li>
+                    <li>Properties</li>
                     <li>Tenants</li>
                     <li>Rent</li>
                     <li>Announcement</li>

@@ -1,10 +1,12 @@
 import './App.css';
-import SideBar from './components/sidebar/SideBar';
+import Card from './components/Cards/Card.js';
+// import SideBar from './components/sidebar/SideBar';
 
 function App() {
   return (
     <div className="App">
-      <SideBar/>
+      {/* <SideBar/> */}
+      <Card />
     </div>
   );
 }

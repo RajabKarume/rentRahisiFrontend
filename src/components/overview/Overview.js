@@ -1,6 +1,5 @@
 import React from "react";
 import './Overview.css'
-import Card from '../Cards/Card'
 import SideBar from '../sidebar/SideBar';
 import OverviewContent from "./OverveiwContent";
 

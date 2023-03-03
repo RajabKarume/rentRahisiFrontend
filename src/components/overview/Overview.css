@@ -30,3 +30,10 @@ img{
     display: flex;
     justify-content: space-evenly;
 }
+
+.content-page{
+    min-width: 100%;
+    width: 75vw;
+    height: 100vh;
+    overflow: scroll;
+}

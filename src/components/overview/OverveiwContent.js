@@ -5,7 +5,7 @@ import Card from '../Cards/Card'
 function OverviewContent(){
 
     return(
-        <div className="content- page">
+        <div className="content-page">
             <div className="header">
                 <div className="h1-div">
                     <h1>Overview</h1>

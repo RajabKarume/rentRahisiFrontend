@@ -1,6 +1,6 @@
 import './App.css';
 // import OverviewContent from './components/overview/OverveiwContent';
-// import Overview from './components/overview/Overview';
+import Overview from './components/overview/Overview';
 // import PropertiesFetch from './components/properties/PropertiesFetch';
 // import Card from './components/Cards/Card.js';
 // import SideBar from './components/sidebar/SideBar';
@@ -11,7 +11,7 @@ function App() {
       {/* <SideBar/> */}
       {/* <Card /> */}
       {/* <PropertiesFetch /> */}
-      {/* <Overview /> */}
+      <Overview />
       {/* <OverviewContent /> */}
     </div>
   );

@@ -1,5 +1,7 @@
 import './App.css';
-import PropertiesFetch from './components/properties/PropertiesFetch';
+// import OverviewContent from './components/overview/OverveiwContent';
+// import Overview from './components/overview/Overview';
+// import PropertiesFetch from './components/properties/PropertiesFetch';
 // import Card from './components/Cards/Card.js';
 // import SideBar from './components/sidebar/SideBar';
 
@@ -8,7 +10,9 @@ function App() {
     <div className="App">
       {/* <SideBar/> */}
       {/* <Card /> */}
-      <PropertiesFetch />
+      {/* <PropertiesFetch /> */}
+      {/* <Overview /> */}
+      {/* <OverviewContent /> */}
     </div>
   );
 }

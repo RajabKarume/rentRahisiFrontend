@@ -1,11 +1,11 @@
 import React from "react";
 import './Card.css';
 
-function Card(){
+function Card({info}){
     return(
         <div className="card-container">
             <div className="h1div">
-                <h1>Houses</h1>
+                <h1>{info}</h1>
             </div>
             <div className="h2div">
                 <h2>120</h2>
